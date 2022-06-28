@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:ui="using:Windows.UI">
+    <!--     Colors     -->
+    <ui:Color x:Key="WhiteColor">#FFFFFF</ui:Color>
+    <ui:Color x:Key="RedColor">#FF0000</ui:Color>
+    <ui:Color x:Key="PrimaryColor">#F4A261</ui:Color>
+    <ui:Color x:Key="PrimaryDarkerColor">#E46F10</ui:Color>
+
+    <!--     Foreground     -->
+    <StaticResource x:Key="ButtonForeground"
+                    ResourceKey="WhiteColor"/>
+    <StaticResource x:Key="ButtonForegroundPointerOver"
+                    ResourceKey="RedColor"/>
+
+    <!--     Background     -->
+    <StaticResource x:Key="ButtonBackground"
+                    ResourceKey="PrimaryColor"/>
+    <StaticResource x:Key="ButtonBackgroundPointerOver"
+                    ResourceKey="PrimaryDarkerColor"/>
+</ResourceDictionary>
